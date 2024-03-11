@@ -73,9 +73,7 @@ function mDecreaseTimer() {
     wm.innerText--;
   }
 }
-//Check if timer is 0, can't go below
 
-if (ws.innerText <= 0) ws.innerText = "1";
 
 //Stop Timer Function
 function stopInterval() {
